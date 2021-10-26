@@ -1,0 +1,70 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+ 
+#logo-container img{
+  height: 3.5rem;
+  margin-top: 0.3rem;
+}
+
+#imgcenter img{
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+#download-button{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #0000ff;
+}
+
+#title{
+  text-align: center;
+  
+}
+
+#btn-relatorio-arrumar{
+  margin-top: 200;
+}
+
+nav ul li a:hover {
+  color: #0000ff;
+}
+
+nav ul li a {
+  transition: color 0.3s;
+  position: relative;
+}
+
+nav ul a {
+  color: black;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 2.5px;
+  background: #0000ff;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 1rem;
+  transition: width 0.8s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
